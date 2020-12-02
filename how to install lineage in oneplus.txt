@@ -1,0 +1,28 @@
+step 1)Flash TWRP
+connect device to pc
+save twrp image in folder
+open same folder in cmd
+write command
+fastboot recovery flash *name in image file*.img
+
+step 2)Save Os zip (lineage-16.0-20201019-nightly-cheeseburger-signed.zip)in device
+run device in fastboot
+press volume down to recovery mode and press power button
+select wipe
+check all boxes except internal and usb storage
+go back
+press format data
+reboot device
+dump zip file form pc to internal storage
+
+step 3)Install lineage
+press install
+select lineage-16.0-20201019-nightly-cheeseburger-signed.zip
+swipe to flash os
+ 
+click dont install twrp app
+
+reboot
+
+Install termux
+make sure usb prefernce is file transfer
